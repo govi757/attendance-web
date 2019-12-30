@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(rgb(68, 68, 116), white);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* opacity: 0.5; */
+    position: relative;
+}
+
+.errorText {
+    color: red;
+    position: relative;
+}
+
+.errorAnimation {
+    -webkit-animation: myfirst .2s linear .2s normal forwards;
+    /* Safari 4.0 - 8.0 */
+    animation: myfirst .2s linear .2s normal forwards;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 10px;
+        top: 0px;
+    }
+    50% {
+        left: 10px;
+        top: 10px;
+    }
+    75% {
+        left: 0px;
+        top: 10px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 10px;
+        top: 0px;
+    }
+    50% {
+        left: 10px;
+        top: 0px;
+    }
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+    
+}
